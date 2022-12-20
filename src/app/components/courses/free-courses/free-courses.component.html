@@ -1,1 +1,13 @@
-<p>free courses</p>
+<h2 class="titleFreeCourses">Cursos Gratuitos</h2>
+<div class="containerCourses">
+  <div class="courses" *ngFor="let course of freeCourses">
+    <p class="courseTitle">{{ course.courseName }}</p>
+    <p class="courseDescription">{{ course.description }}</p>
+    <p class="courseDescription">{{ course.technologies }}</p>
+    <a class="courseLink" href="{{ course.url }}" target="_blank">Ver mais</a>
+    <div class="courseInformation">
+      <p *ngIf="course.hours !== ''">Horas: {{ course.hours }}</p>
+    </div>
+  </div>
+</div>
+<hr />
