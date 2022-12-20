@@ -6,8 +6,8 @@
     <p class="courseDescription">{{ course.technologies }}</p>
     <a class="courseLink" href="{{ course.url }}" target="_blank">Ver mais</a>
     <div class="courseInformation">
-      <p>Horas: {{ course.hours }}</p>
       <p>Preço: {{ course.price }}</p>
+      <p *ngIf="course.hours !== ''">Horas: {{ course.hours }}</p>
     </div>
   </div>
 </div>
