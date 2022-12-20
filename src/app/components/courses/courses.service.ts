@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class CoursesService {
   constructor() {}
 
-  getCourses() {
+  getCoursesPaid() {
     return [
       {
         courseName: 'Desenvolvimento Web',
@@ -20,20 +20,41 @@ export class CoursesService {
       {
         courseName: 'Lógica de Programação',
         description:
-          'Este é um curso para quem quer começar a sua carreira como programador e não sabe por onde começar.',
+          'Este é um curso para quem quer iniciar a sua carreira como programador.',
         technologies: 'Algoritmos, estruturas, vetores e matrizes',
         url: 'https://go.hotmart.com/I77264651K?dp=1',
         hours: '3 hrs',
         price: 'R$ 19,90',
       },
       {
-        courseName: 'SCRUM, Metodologias ágeis.',
+        courseName: 'SCRUM, Metodologias ágeis',
         description:
           'Curso para conhecer o SCRUM, uma metodologia ágil de trabalho.',
         technologies: 'SCRUM',
         url: 'https://go.hotmart.com/R77264609O?dp=1',
         hours: '3 hrs',
         price: 'R$ 50,00',
+      },
+    ];
+  }
+
+  getCoursesFree() {
+    return [
+      {
+        courseName: 'Curso em Vídeo',
+        description:
+          'Plataforma de cursos gratuitos para iniciantes do mundo da tecnologia',
+        technologies: 'Diversas tecnologias',
+        url: 'https://www.cursoemvideo.com/cursos/',
+        hours: ' infinit hrs',
+      },
+      {
+        courseName: 'Angular 2',
+        description:
+          'Curso para aprender o framework Angular 2, nescessário ter experiência prévia antes.',
+        technologies: 'Angular 2, TypeScript',
+        url: 'https://loiane.training/cursos/angular',
+        hours: '+ 28 hrs',
       },
     ];
   }

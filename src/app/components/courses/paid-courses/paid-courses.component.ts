@@ -10,6 +10,6 @@ export class PaidCoursesComponent {
   paidCourses: any = [];
 
   constructor(private coursesService: CoursesService) {
-    this.paidCourses = this.coursesService.getCourses();
+    this.paidCourses = this.coursesService.getCoursesPaid();
   }
 }

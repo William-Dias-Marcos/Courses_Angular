@@ -10,6 +10,6 @@ export class FreeCoursesComponent {
   freeCourses: any = [];
 
   constructor(private coursesService: CoursesService) {
-    this.freeCourses = this.coursesService.getCourses();
+    this.freeCourses = this.coursesService.getCoursesFree();
   }
 }
