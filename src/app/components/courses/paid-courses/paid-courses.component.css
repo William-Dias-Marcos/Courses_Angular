@@ -1,0 +1,37 @@
+.titleFreeCourses {
+  padding: 30px;
+}
+.containerCourses {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+.courses {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px #000 solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+.courseTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  margin: auto;
+}
+.courseDescription {
+  padding: 10px;
+}
+.courseLink {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(255, 0, 0);
+}
+.courseInformation {
+  display: flex;
+  justify-content: space-between;
+}
