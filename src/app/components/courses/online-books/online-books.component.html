@@ -1,0 +1,12 @@
+<h2 id="titleOnlineBooks">E-books</h2>
+<div class="containerBooks">
+  <div class="books" *ngFor="let book of onlineBooks">
+    <p class="bookTitle">{{ book.bookName }}</p>
+    <p class="bookDescription">{{ book.description }}</p>
+    <p class="bookDescription">{{ book.technologies }}</p>
+    <a class="bookLink" href="{{ book.url }}" target="_blank">Ver mais</a>
+    <div class="bookInformation">
+      <p>Preço: {{ book.price }}</p>
+    </div>
+  </div>
+</div>

@@ -87,9 +87,45 @@ export class CoursesService {
         courseName: 'Angular 2',
         description:
           'Curso para aprender o framework Angular 2, nescessário ter experiência prévia antes.',
-        technologies: 'Angular 2, TypeScript',
+        technologies: 'Angular 2 e TypeScript',
         url: 'https://loiane.training/curso/angular',
         hours: '+ 28 hrs',
+      },
+      {
+        courseName: 'Desenvolvedor WordPress',
+        description:
+          'Ensina a criar e fazer customizações em templates para o WordPress.',
+        technologies: 'WordPress',
+        url: 'https://university.br.rockcontent.com/courses/desenvolvedor-wordpress-cert',
+        hours: '3 hrs',
+      },
+    ];
+  }
+
+  getOnlineBooks() {
+    return [
+      {
+        bookName: 'Manual do Programador',
+        description:
+          'Para programadores ambiciosos que querem mudar sua visão, maneira de produzir e negociar.',
+        technologies: 'Desenvolvimento de software',
+        url: 'https://go.hotmart.com/P77776584Q',
+        price: 'R$ 59,00',
+      },
+      {
+        bookName: 'PYTHON DATA SCIENCE',
+        description: 'O Guia de Programação Python Passo a Passo Completo.',
+        technologies: 'Python',
+        url: 'https://go.hotmart.com/C77776774V',
+        price: 'R$ 57,00',
+      },
+      {
+        bookName: 'Programação Python Ilustrada',
+        description:
+          'Tem o objetivo fornecer uma visão aprofundada da linguagem de programação Python.',
+        technologies: 'Python',
+        url: 'https://go.hotmart.com/B77776796E',
+        price: 'R$ 37,00',
       },
     ];
   }

@@ -1,0 +1,39 @@
+#titleOnlineBooks {
+  text-align: center;
+  margin: 30px;
+}
+.containerBooks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+.books {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px #000 solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+.bookTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  margin: auto;
+}
+.bookDescription {
+  padding: 10px;
+}
+.bookLink {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(255, 0, 0);
+}
+.bookInformation {
+  display: flex;
+  justify-content: space-between;
+}
