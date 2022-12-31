@@ -19,8 +19,7 @@ https://loja-cursos.netlify.app/
 ## 📱 Layout da Aplicação
 
  <p text  align="center">
-  <h1 align="center"> Projeto em desenvolvimento </h1>
-  <img img width= "700" src= "">
+  <img img width= "700" src= "https://github.com/William-Dias-Marcos/Courses_Angular/blob/main/to-readme/coursesPage.gif">
   
  </p>
 
